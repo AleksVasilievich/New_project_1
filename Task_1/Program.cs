@@ -10,6 +10,6 @@ if(a > b)
 }
 else
 {
-   Console.WriteLine("второе число - большее , первое чтсло - меньшее"); 
+   Console.WriteLine("второе число - большее , первое число - меньшее"); 
 }
 Console.ReadKey();
