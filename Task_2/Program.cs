@@ -17,3 +17,4 @@ if(c> max)
 }
 Console.WriteLine("Максимальное из трёх чисел");
 Console.WriteLine(max);
+Console.ReadKey();
