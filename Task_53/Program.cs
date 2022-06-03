@@ -15,7 +15,6 @@ int[,] Getarray(int a, int b)
         }
     }
     return array;
-    //Console.WriteLine(array);
 }
 
 void PrintArray(int[,] array)
