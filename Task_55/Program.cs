@@ -3,13 +3,24 @@
 // невозможно, программа должна вывести сообщение для
 // пользователя.
 
+int  PrintArray{}
+
+{
 Console.WriteLine("Введите количество строк - ");
 int lines = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов - ");
 int colimns = int.Parse(Console.ReadLine());
 
 int[,] array = new int[lines,colimns];
-PrintArray(array);
+
+Console.Write(array);
+//PrintArray(array);
+
+}
+
+
+
+
 // Console.WriteLine("Введите колличесвто строк: ");
 // int userRow = int.Parse(Console.ReadLine());
 
